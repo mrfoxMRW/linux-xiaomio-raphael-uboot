@@ -1,4 +1,4 @@
-# 统一的系统镜像构建工作流 - 在 Ubuntu 24.04 ARM 上运行
+# 统一的系统镜像构建工作流 - 在 Ubuntu 25.1 ARM 上运行
 name: 构建系统镜像
 
 # 手动触发，可指定所有参数
@@ -33,8 +33,8 @@ on:
 # 工作流配置
 jobs:
   build-system-image:
-    # 在 Ubuntu 24.04 ARM 上运行
-    runs-on: ubuntu-24.04-arm
+    # 在 Ubuntu 25.1 ARM 上运行
+    runs-on: ubuntu-25.1-arm
     
     # 设置权限，允许创建 Release
     permissions:
