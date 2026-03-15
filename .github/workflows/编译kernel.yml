@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
     inputs:
       kernel_version:
-        description: '内核版本号 (如 6.18)'
+        description: '内核版本号 (如 6.19)'
         required: true
-        default: '6.18'
+        default: '6.19'
 
 # 工作流配置
 jobs:

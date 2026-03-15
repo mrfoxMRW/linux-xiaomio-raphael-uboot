@@ -18,7 +18,7 @@ on:
       kernel_version:
         description: '内核版本号 (从 Release 下载对应版本)'
         required: true
-        default: '6.18'
+        default: '6.19'
       desktop_environment:
         description: '桌面环境 (仅适用于Desktop版本)'
         required: false
